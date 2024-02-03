@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+* {
+    color: yellow;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+html {
+    background-image: url("wallpaper.jpg");
+    background-size: 100%;
+}
+
+body {
+    /* cursor: url("cursor.png"),auto; */
+    cursor: url("cursor.png"),auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.text {
+    text-align: center;
+}
