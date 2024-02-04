@@ -10,6 +10,13 @@ html {
     background-size: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    html {
+        background-image: url("wallpaper.jpg");
+        background-size: 300%;
+    }
+}
+
 body {
     /* cursor: url("cursor.png"),auto; */
     cursor: url("cursor.png"),auto;
@@ -25,3 +32,4 @@ body {
 .text {
     text-align: center;
 }
+
